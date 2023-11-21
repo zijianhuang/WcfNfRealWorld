@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RealWorld", "RealWorld", "{7BE176F0-260E-4FDD-A244-A10D8566AD33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6028F4F8-3658-4937-9C82-DEBFD3D8D8AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B4D3F5C1-BD07-47FB-A1E4-D1E38610A6EA}"
+	ProjectSection(SolutionItems) = preProject
+		HelloWorld.vsmdi = HelloWorld.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{450D4738-07A0-416B-89F6-AD90CEBC52EA}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\RealWorldService_Web.config = Deployment\RealWorldService_Web.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{BDB09778-6386-4BE6-9969-262F0863CE0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldImp", "RealWorldImp\RealWorldImp.csproj", "{59F99C94-896C-42A1-A5D1-5C1D2925D955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRealWorld", "TestRealWorld\TestRealWorld.csproj", "{59634FC0-4EBE-4760-8E69-5A4B2B380A84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldServiceClientApi", "RealServiceClientApi\RealWorldServiceClientApi.csproj", "{8825689C-8CD4-4B8A-94F4-2F688C4D1EC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldService", "RealWorldService\RealWorldService.csproj", "{C4377164-A78C-4410-837B-4AE3AACD857D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRealWorldIntegration", "TestRealWorldIntegration\TestRealWorldIntegration.csproj", "{D727AB2A-C54F-42AE-9BBB-2657671C485E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDB09778-6386-4BE6-9969-262F0863CE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB09778-6386-4BE6-9969-262F0863CE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB09778-6386-4BE6-9969-262F0863CE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB09778-6386-4BE6-9969-262F0863CE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F99C94-896C-42A1-A5D1-5C1D2925D955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F99C94-896C-42A1-A5D1-5C1D2925D955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F99C94-896C-42A1-A5D1-5C1D2925D955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F99C94-896C-42A1-A5D1-5C1D2925D955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59634FC0-4EBE-4760-8E69-5A4B2B380A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59634FC0-4EBE-4760-8E69-5A4B2B380A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59634FC0-4EBE-4760-8E69-5A4B2B380A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59634FC0-4EBE-4760-8E69-5A4B2B380A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8825689C-8CD4-4B8A-94F4-2F688C4D1EC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8825689C-8CD4-4B8A-94F4-2F688C4D1EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8825689C-8CD4-4B8A-94F4-2F688C4D1EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8825689C-8CD4-4B8A-94F4-2F688C4D1EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4377164-A78C-4410-837B-4AE3AACD857D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4377164-A78C-4410-837B-4AE3AACD857D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4377164-A78C-4410-837B-4AE3AACD857D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4377164-A78C-4410-837B-4AE3AACD857D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D727AB2A-C54F-42AE-9BBB-2657671C485E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D727AB2A-C54F-42AE-9BBB-2657671C485E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D727AB2A-C54F-42AE-9BBB-2657671C485E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D727AB2A-C54F-42AE-9BBB-2657671C485E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{450D4738-07A0-416B-89F6-AD90CEBC52EA} = {7BE176F0-260E-4FDD-A244-A10D8566AD33}
+		{59F99C94-896C-42A1-A5D1-5C1D2925D955} = {7BE176F0-260E-4FDD-A244-A10D8566AD33}
+		{59634FC0-4EBE-4760-8E69-5A4B2B380A84} = {6028F4F8-3658-4937-9C82-DEBFD3D8D8AB}
+		{8825689C-8CD4-4B8A-94F4-2F688C4D1EC7} = {7BE176F0-260E-4FDD-A244-A10D8566AD33}
+		{C4377164-A78C-4410-837B-4AE3AACD857D} = {7BE176F0-260E-4FDD-A244-A10D8566AD33}
+		{D727AB2A-C54F-42AE-9BBB-2657671C485E} = {6028F4F8-3658-4937-9C82-DEBFD3D8D8AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C5AC2F2-665F-428D-99EA-6FA4DE06E77A}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = HelloWorld.vsmdi
+	EndGlobalSection
+EndGlobal
