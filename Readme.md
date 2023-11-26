@@ -1,5 +1,5 @@
 [WCF for the Real World, Not Hello World](https://www.codeproject.com/Articles/627240/WCF-for-the-Real-World-Not-Hello-World) is an article published in 2012.
-This repository is based on the download source of the article which is now upgrated for .NET Framework 4.8.
+This repository is based on the download source of the article which is now upgrated for .NET Framework 4.8, accompanied by article "[WCF for the Real World, Not Hello World -- Revisited in the .NET Core Landscape](https://www.codeproject.com/Tips/5372963/WCF-for-the-Real-World-Not-Hello-World-Revisited-i)"
 
 When establishing a localhost:8998 Website in local IIS, please make sure "WCF Services / HTTP Activation" is enabled:
 
@@ -22,7 +22,4 @@ Focus on the following csproj projects:
 1. TestRealWorldCoreIntegration.csproj
 
 However, not like the counterpart for .NET Framework, "app.config" is not utilized anymore, and this config file will cause the xUnit VS runner to fail. So I have hard coded the binding and the address for "System.ServiceModel.ClientBase". And in a real world program, it shouldn't be hard for you to create an app level json based config in "appSettings.json" and use app codes to instanciate respective bindings.
-
-
-## I Miss the Goold Old Day with WCF
 

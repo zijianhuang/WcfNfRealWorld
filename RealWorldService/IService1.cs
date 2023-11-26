@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 using System.ServiceModel;
-using System.Text;
 
 namespace Fonlow.Demo.RealWorldService
 {
-    [ServiceContract(Namespace = "http://www.fonllow.com/demo/RealWorldService/2012/08")]
+	[ServiceContract(Namespace = "http://www.fonllow.com/demo/RealWorldService/2012/08")]
     public interface IService1
     {
         [OperationContract]
